@@ -1,20 +1,9 @@
-* to execute and run test cases
+* To execute and run test cases
+   mvn clean install exec:java -Dexec.mainClass="mainapp.MyApp" -DskipTests=true
 
-  mvn clean install exec:java -Dexec.mainClass="mainapp.MyApp" -DskipTests=true
+* Mandatory: Before final submission run the following command: 
+	 mvn test
 
-
-
-
-git init
-<add line in Assessment.txt file>
-git add Assessment.txt
-git config --global user.email ""
-git config --global user.name ""
-git commit -m "first commit"
-<add line in Assessment.txt file>
-git add Assessment.txt
-git commit -m "first commit"
-git revert HEAD --no-edit
-
-
-
+* To ensure your code is saved and available for later use, remember to use the CTRL+Shift+B command on your code IDE.
+   This will push or save the updated contents in the internal git/repository.
+   It is also important to use CTRL+Shift+B before the final submission to evaluate the code quality.
